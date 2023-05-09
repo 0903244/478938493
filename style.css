@@ -1,3 +1,15 @@
+@charset "UTF-8";
+/*
+Theme Name: original
+Theme URL: テーマのサイトのURI
+Description: テーマについての簡単な説明
+Author: テーマの作者
+Version: テーマのバージョン
+Tags: テーマの特徴となるキーワード（カンマ区切りで複数OK）
+License: テーマのライセンス
+License URI: テーマのライセンスのURI
+*/
+
 .top {
     width: 300px;
 }
@@ -36,7 +48,7 @@ header {
 }
 
 .mainvisual {
-    background-image: url('https://github.com/0903244/478938493/blob/main/mainvisual.jpg?raw=true');
+    background-image: url('images/mainvisual.jpg');
     background-position: center;
     background-size: cover;
     height: 500px;
@@ -91,46 +103,4 @@ header {
 
 .bicyclebox .col3 img {
     width: 100%;
-}
-
-.contact_table {
-    width: 55%;
-    margin: 0 auto;
-    border-collapse: separate;
-    border-spacing: 20px;
-}
-
-.req {
-    background-color: rgb(80, 165, 80);
-    color: white;
-    padding: 2px 4px;
-    margin-left: 10px;
-    font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
-}
-
-.contact_table span {
-    font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
-}
-
-.contact_table th {
-    display: block;
-    text-align: left;
-    margin-bottom: 15px;
-}
-
-.contact_table td {
-    display: block;
-}
-
-.contact_table input {
-    padding: 10px 0;
-    width: 100%;
-}
-
-.contact_table textarea {
-    width: 100%;
-}
-
-.checkbox-table input {
-    width: 5%;
 }
